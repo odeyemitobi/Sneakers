@@ -1,0 +1,205 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+
+:root{
+    --orange:#1e07e6;
+    --black:#080808;
+    --gradient:linear-gradient(90deg, var(--orange), var(--black));
+}
+
+*{
+    font-family: "Sofia Pro", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+  }
+
+  *::selection{
+    background:var(--black);
+    color: white;
+  }
+
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+
+  body{
+    background: rgb(231, 227, 227);
+  }
+
+  section {
+    padding: 0.9%;
+    padding-top: 7.5rem;
+  }
+
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    padding: 2rem 0;
+    box-shadow:#454545;
+    z-index: 1000;
+  }
+
+  header .logo {
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    color:var(--black)
+  }
+
+  header .logo span{
+    color:var(--orange);
+  }
+
+  header .navbar a:hover{
+    color: var(--orange);
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .left-nav {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+  }
+
+  header .navbar1 {
+    display: flex;
+  }
+  
+  header .navbar1 i {
+    font-size: 14px;
+    
+  }
+
+  header .navbar a {
+    font-size: 14px;
+    margin-left: 2rem;
+    color: #454545;;
+    font-weight: 500;
+  }
+
+  .prof img {
+    height: 40px;
+    border-radius: 100px;
+  }
+
+  .cart i {
+    bottom: 6rem;
+    margin-right: 5rem;
+  }
+
+  .sneaka {
+    margin: 8rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(231, 227, 227);
+    background-position: center;
+  }
+  
+  .sneaka .sneaka-pic img {
+    height: 520px;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+  .sneaka .sneaka-company h3 {
+    font-size: 15px;
+    color: var(--orange);
+    font-style: normal;
+    line-height: 48px;
+    font-weight: 900;
+  }
+
+  .sneaka .sneaka-company h1 {
+    font-size: 30px;
+    color: black;
+    font-style: normal;
+    line-height: 48px;
+    font-weight: 700;
+  }
+
+  .sneaka .sneaka-company p{
+    font-size: 20px;
+    color: rgba(8, 8, 8, 0.8);
+    padding: 1rem 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .sneaka-price {
+    display: flex;
+  }
+
+  .sneaka-price h1 {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .sneaka-company .sneaka-price p {
+    margin: 1.8rem;
+    padding: 1rem;
+    background-color: #6c77b4fa;
+    color: var(--orange);
+    font-weight: 700;
+  }
+
+  .sneaka-pic2 img {
+    height: 60px;
+    justify-content: right;
+  }
+
+  .plus {
+    display: inline-block;
+    text-decoration: none;
+    color: white !important;
+    border-radius: 1px;
+    padding: 1px 6px;
+    top: 4px;
+    font-size: 12px !important;
+    background: gray;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
+
+  .sneaka-company .plus h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .cart-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white !important;
+    border-radius: 10px;
+    box-shadow: #1e07e6;
+    padding: 15px 15px;
+    font-size: 12px !important;
+    background: #1e07e6;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
